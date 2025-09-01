@@ -1,4 +1,4 @@
-# K72 Website Clone
+# K72 Website
 
 ## Overview
 
@@ -32,13 +32,13 @@ To get a local copy up and running, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/k72-clone.git
+   git clone https://github.com/developerarif10/k-72.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd k72-clone
+   cd k-72
    ```
 
 3. Install dependencies:
