@@ -9,3 +9,30 @@
   font-family: font2;
   src: url("../public/fonts/Lausanne-500.woff2");
 }
+
+body {
+  overflow: hidden;
+}
+
+.moveX {
+  animation: moveAnimation infinite linear 10s;
+}
+
+.moveLink {
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+
+.link:hover .moveLink {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-100%);
+  }
+}
