@@ -82,7 +82,7 @@ const FullScreenNav = () => {
         </div>
       </div>
       <div ref={fullNavLinksRef} className="relative">
-        <div className="navlink flex w-full justify-between lg:p-5 p-2 items-start">
+        <div className="navlink flex w-full justify-between lg:p-5 p-2 items-center">
           <div className="">
             <div className="lg:w-36 w-24">
               <svg
@@ -109,9 +109,9 @@ const FullScreenNav = () => {
           </div>
         </div>
 
-        <div>
+        <div className="lg:mt-0 mt-16">
           <div id="fullScreenNavContent">
-            <div className="link origin-top origin-top relative text-[100px] uppercase leading-[.9] pt-2 text-center font-[font2] text-white font-[900] border-y-1 border-[#252529]">
+            <div className="link origin-top relative text-[100px] uppercase leading-[.9] pt-2 text-center font-[font2] text-white font-[900] border-y-1 border-[#252529]">
               <h1>Project</h1>
               <div className="moveLink absolute flex top-1 overflow-hidden bg-[#D3FD50] text-black">
                 <div className="moveX flex items-center gap-x-4">

@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="flex items-start z-4 w-full fixed justify-between">
       <div className="p-2">
-        <div className="w-30">
+        <div className="w-36">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-full"
@@ -31,15 +31,15 @@ function Navbar() {
         onMouseLeave={() => {
           navGreenRef.current.style.width = "0%";
         }}
-        className="h-12 relative cursor-pointer bg-black w-52"
+        className="h-12 relative cursor-pointer bg-black lg:w-78 w-64"
       >
         <div
           className="bg-[#D3FD50] absolute top-0 transition-all ease-in-out h-full w-full"
           ref={navGreenRef}
         ></div>
-        <div className="relative h-full px-12 flex gap-1.5 flex-col justify-center items-end">
-          <div className="w-14 h-[1px] bg-[#fff]"></div>
-          <div className="w-8 h-[1px] bg-[#fff]"></div>
+        <div className="relative h-full lg:px-12 px-4 flex gap-1.5 flex-col justify-center items-end">
+          <div className="w-14 h-[2px] bg-[#fff]"></div>
+          <div className="w-8 h-[2px] bg-[#fff]"></div>
         </div>
       </div>
     </div>
